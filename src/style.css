@@ -1,0 +1,103 @@
+a {
+    color: #ffffff;
+    text-decoration: none;
+ }
+
+ a:hover {
+    color: #ffcb08!important;
+ }
+
+ ul {
+  list-style: none ;
+ }
+ 
+ .active {
+    color: #ffcb08;
+    font-weight: 500; 
+ }
+ 
+ .bg-azul {
+    background-color: #17a2b8;
+ }
+
+ .text-right {
+    text-align: right;
+ }
+
+ .banner {
+    background: rgba(0, 0, 0, 0.5) url('./components/img/pizza-pepperoni-table.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    padding: 100px 10px;
+    color:#ffffff;
+    background-blend-mode:darken;
+ }
+
+ .galeria {
+   display: grid;
+   gap: 10px;
+ }
+ 
+ .grid-columns-5 {
+   grid-template-columns: repeat(5, 1fr);
+ }
+ .grid-columns-3 {
+   grid-template-columns: repeat(3, 1fr);
+ }
+ 
+ .galeria .foto {
+   padding: 10px 10px 0px 10px;
+   height: 200px;
+   background-size: cover;
+   background-position: center;
+ }
+
+ .card-header {
+   background-color: #ffffff;
+   text-transform: capitalize;
+   color:#17a2b8;
+ }
+
+ .card-footer{
+   background-color: #ffffff;
+   font-size: 30px;
+   color:#17a2b8;
+   font-weight: 700;
+ }
+ 
+ .galeria .foto svg {
+   align-self: flex-end;
+ }
+ 
+ .p-3 {
+   padding: 30px;
+ }
+ 
+ .descripcion h1{
+  text-transform: capitalize;
+ } 
+
+.imagen-desc {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.foto_carrito {
+  width: 200px;
+  border-radius: 15px;
+}
+
+.fondo-gris {
+  background-color: #f5f5f5;
+  border-radius: 15px;
+}
+
+.fondo-blanco {
+  background-color: #ffffff;
+  border-radius: 15px;
+ }
+
+  .azul {
+    color:#17a2b8
+  }
